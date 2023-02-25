@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy</title>
+    <!-- boostap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+        <link rel="stylesheet" href="./css/style.css">
+
+        <script>
+            function toggleMenu(){
+                const menu = document.getElementById("mobile-menu");
+
+                if(menu.style.display == "block"){
+                   menu.style.display = "none"
+                }else{
+                   menu.style.display = "block";
+                }
+
+            }
+        </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="yummy-nav mt-5">
+                        <div class="d-flex justify-content-between">
+                            <div class="logo">
+                                <h2 class="text-danger mt-2 fw-bold" style="font-size: 30px;">Yummy</h2>
+                            </div>
+                            <ul class="menu">
+                                <li class="p-3">Home</li>
+                                <li class="p-3">About</li>
+                                <li class="p-3">Menu</li>
+                                <li class="p-3">Events</li>
+                                <li class="p-3">Chefs</li>
+                                <li class="p-3">Gallery</li>
+                                <li class="p-3">Drop Down</li>
+                                <li class="p-3">Contact</li>
+                            </ul>
+                            <button class="btn mt-3">Book a table</button>
+                            <button  class="bar" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <ul class="mobile-menu" id="mobile-menu">
+            <li class="p-3">Home</li>
+            <li class="p-3">About</li>
+            <li class="p-3">Menu</li>
+            <li class="p-3">Events</li>
+            <li class="p-3">Chefs</li>
+            <li class="p-3">Gallery</li>
+            <li class="p-3">Drop Down</li>
+            <li class="p-3">Contact</li>
+        </ul>
+    </section>
+
+
+    <!-- Healthy -->
+    <section>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="healthy">
+                        <h4>Enjoy Your Healthy<br>
+                            Delicious Food</h4>
+                        <p>Sed autem laudantium dolores. Voluptatem itaque<br> ea consequatur eveniet. Eum quas beatae
+                            <br>cumque eum quaerat.
+                        </p>
+                        <button>Book a Table</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/hero-img.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn More -->
+    <section>
+        <div class="container learn">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h5>About us</h5>
+                    <h4>Learn More <span>About us</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-7">
+                    <h5>About us</h5>
+                    <h4>Learn More <span>About us</span></h4>
+                </div>
+                <div class="col-lg-5">
+                    <h5>About us</h5>
+                    <h4>Learn More <span>About us</span></h4>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section>
+        <div class="container back mt-5">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="about-us-bg text-center">
+                        <div class="bg-white about-us-text">
+                            <h4 class="fw-bold">Book a Table</h4>
+                            <p class="text-danger fs-3 fw-bold">+1 5589 55488 55</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. </p>
+                        <ul class="list-unstyled">
+                            <h4 class="text-secondary">
+                                <li><i class="fa-solid fa-check-double" style="color: rgb(206, 18, 18 );"></i>Ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            </h4>
+                            <h4 class="text-secondary">
+                                <li><i class="fa-solid fa-check-double" style="color: rgb(206, 18, 18);"></i>Ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            </h4>
+                            <h4 class="text-secondary">
+                                <li><i class="fa-solid fa-check-double" style="color: rgb(206, 18, 18);"></i>Ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                                    pariatur.</li>
+                            </h4>
+                        </ul>
+                        <img src="./images/about-2.jpg" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section>
+        <div class="container-fluid bg-light choose">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="cards">
+                            <h1>Why Choose Yummy?</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores
+                                sed
+                                et.
+                                Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card-item bg-white">
+                                    <h6 class="text-center"><i class="fa-sharp fa-solid fa-calendar-check"></i></h6>
+                                    <h4>Corporis voluptates officia eiusmod</h4>
+                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+                                        aliquip
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card-item bg-white">
+                                    <h6 class="text-center"><i class="fa-sharp fa-solid fa-calendar-check"></i></h6>
+                                    <h4>Corporis voluptates officia eiusmod</h4>
+                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+                                        aliquip
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card-item bg-white">
+                                    <h6 class="text-center"><i class="fa-sharp fa-solid fa-calendar-check"></i></h6>
+                                    <h4>Corporis voluptates officia eiusmod</h4>
+                                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+                                        aliquip
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- testi -->
+    <section id="stats-counter" class="stats-counter">
+        <div class="container-fluid">
+            <div class="row text-center text-white">
+                <div class="col-md-3">
+                    <h1>286</h1>
+                    <h3>Client</h3>
+                </div>
+                <div class="col-md-3">
+                    <h1>521</h1>
+                    <h3>Projects</h3>
+                </div>
+                <div class="col-md-3">
+                    <h1>1453</h1>
+                    <h3>Hours of Support</h3>
+                </div>
+
+                <div class="col-md-3">
+                    <h1>32</h1>
+                    <h3>workers</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stater -->
+    <section>
+        <div class="container state">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h6 class="text-secondary">OUR MENU</h6>
+                    <h1>Check Our <span>Yummy Menu</span> </h1>
+                    <h4>Straters Breakfast Lunch Dinner</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section>
+        <div class="container menus ">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="text-secondary">Menu</h2>
+                    <h1 class="fw-bold">Starters</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu-images -->
+    <section>
+        <div class="container menu-images mt-5">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="./images/menu-item-1.png" alt="" style="width: 300px; object-fit: cover; ">
+                    <h4 class="pt-2">Magnam Tiste</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold pt-2">$5.95</h5>
+                </div>
+
+
+                <div class="col-md-4">
+                    <img src="./images/menu-item-2.png" alt="" style="width: 300px; object-fit: cover;">
+                    <h4 class="pt-2">Aut Luia</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold pt-2">$14.95</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="./images/menu-item-3.png" alt="" style="width: 300px; object-fit: cover;">
+                    <h4 class="pt-2">Est Eligendi</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold pt-2">$8.95</h5>
+                </div>
+
+
+                <div class="col-md-4">
+                    <img src="./images/menu-item-4.png" alt=""
+                        style="width: 300px; object-fit: cover; margin-top: 30px;">
+                    <h4 class="pt-2">Eos Luibusdam</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold pt-2">$12.95</h5>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <img src="./images/menu-item-5.png" alt=""
+                        style="width: 300px; object-fit: cover; margin-top: 30px;">
+                    <h4 class="pt-2">Eos Luibusdam</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold pt-2">$12.95</h5>
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <img src="./images/menu-item-6.png" alt=""
+                        style="width: 300px;object-fit: cover; margin-top: 30px; ">
+                    <h4 class="pt-2">Laboriosam Direva</h4>
+                    <h6 class="text-secondary">Lorem, deren, trataro, filede, nerada</h6>
+                    <h5 class="fw-bold">$9.95</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- .chefs-menu -->
+    <section data-aos="fade-right" data-aos-duration="3000">
+        <div class="container-fluid bg-light pb-5">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h6 class="mt-5">CHEFS</h6>
+                    <h3>Our Proffesional Chefs</h3>
+                </div>
+            </div>
+
+            <div class="row mt-5 px-5">
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./images/chefs-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Walter White</h5>
+                            <h6 class="text-secondary">Master Chef</h6>
+                            <p class="card-text">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./images/chefs-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Walter White</h5>
+                            <h6 class="text-secondary">Master Chef</h6>
+                            <p class="card-text">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="./images/chefs-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Walter White</h5>
+                            <h6 class="text-secondary">Master Chef</h6>
+                            <p class="card-text">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur
+                                ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Chefs -->
+    <section>
+        <div class="container-fluid form">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h6 class="text-secondary"> BOOK A TABLE</h6>
+                    <h2>Book<span> Your Stay</span> With Us</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms table -->
+
+    <section>
+        <div class="container table-photo">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./images/reservation.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <form name="myform" class="form-group">
+                        <div class="row text">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Your Phone">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Date">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Time">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="# 0f people">
+                            </div>
+
+
+                        </div>
+                        <textarea class="form-control" placeholder="Message" rows="5" id="comment"
+                            name="text"></textarea>
+
+                        <button class="text-center">Book a Table</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-->
+    <section>
+        <div class="container contact">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h6 class="text-secondary">CONTACT</h6>
+                    <h2>Need Help? <span>Contact Us</span></h2>
+                    <iframe class="mt-5"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112080.89931136476!2d77.0689415931702!3d28.61393034938306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1672308366033!5m2!1sen!2sin"
+                        width="100%" height="350px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blocks of contact -->
+    <section data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div class="container block">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="map ">
+                        <div class="p-4 m-2 bg-light w-100 d-flex">
+                            <h3><i class="fa-sharp fa-solid fa-address-book rounded-circle "></i></h3>
+                            <div>
+                                <h5 class="px-2 text-secondary fs-4 fw-bold">Our Address</h5>
+                                <h6 class="px-2 text-secondary">A108 Adam Street, New York, NY 535022</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="map">
+                        <div class="p-4 m-2  bg-light w-100 d-flex">
+                            <h3><i class="fa-sharp fa-solid fa-envelope rounded-circle"></i></i></h3>
+                            <div>
+                                <h5 class="px-2 text-secondary fs-4 fw-bold">Email Us</h5>
+                                <h6 class="px-2 text-secondary">contact@example.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="map">
+                        <div class="p-4 m-2  bg-light w-100 d-flex">
+                            <h3><i class="fa-sharp fa-solid fa-phone rounded-circle"></i></h3>
+                            <div>
+                                <h5 class="px-2 text-secondary fs-4 fw-bold">Call Us</h5>
+                                <h6 class="px-2 text-secondary">+1 5589 55488 55</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="map">
+                        <div class="p-4 m-2 bg-light w-100 d-flex">
+                            <h3><i class="fa-sharp fa-solid fa-share rounded-circle"></i></h3>
+                            <div>
+                                <h5 class="px-2 text-secondary fs-4 fw-bold">Opening Hours</h5>
+                                <h6 class="px-2 text-secondary"><span class="fw-bold text-dark">Mon-Sat</span>: 11AM -
+                                    23PM; <span class="fw-bold text-dark">Sunday</span>: Closed</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact final form -->
+    <section>
+        <div class="container mt-5 contact-final ">
+            <form class="your name" class="p-4">
+                <div class="row p-4">
+                    <div class="col-md-6 mt-5">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+
+                    <div class="col-md-6 mt-5">
+                        <input type="text" class="form-control" placeholder="Your Email">
+                    </div>
+
+                    <div class="col-md-12 mt-3">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+
+                    <div class="col-md-12 mt-3">
+                        <textarea class="form-control" placeholder="Message" rows="8" id="comment"
+                            name="text"></textarea>
+                    </div>
+                </div>
+
+                <div class="blue text-center mt-4 pb-5">
+                    <button>Send Message</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section>
+        <div class="container-fluid py-5 bg-dark mt-5">
+            <div class="container">
+                <div class="row border-light border-bottom border-bottom-1 py-3">
+                    <div class="col-md-3">
+                        <div class="d-flex px-5 mt-5">
+                            <i class="fa-sharp fa-solid fa-location-dot m-2  fa-1x text-secondary"></i>
+                            <div>
+                                <h5 class="fw-bold text-white">Address</h5>
+                                <h6 class="text-secondary">A108 Adam Street<br>
+                                    New York,NY 535022-US</h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex px-5 mt-5">
+                            <i class="fa-sharp fa-solid fa-phone m-2  fa-1x text-secondary"></i>
+                            <div>
+                                <h5 class="fw-bold text-white">Reservation</h5>
+                                <h6 class="text-secondary">Phone:+1 5589 55488 55<br>
+                                    Email:info@example.com</h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex px-5 mt-5">
+                            <i class="fa-sharp fa-solid fa-clock m-2  fa-1x text-secondary"></i>
+                            <div>
+                                <h5 class="fw-bold text-white">Opening Hours</h5>
+                                <h6 class="text-secondary"><span class="fw-bold">Mon-Sat: 11AM - 23PM</span><br>
+                                    Sunday: Closed</h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="d-flex px-5 mt-5">
+                            <div>
+                                <h5 class="fw-bold text-white">Follow Us</h5>
+                                <i class="fa-brands fa-twitter text-white p-1 text-secondary"></i>
+                                <i class="fa-brands fa-facebook-f text-white p-1 text-secondary"></i>
+                                <i class="fa-brands fa-instagram text-white p-1 text-secondary"></i>
+                                <i class="fa-brands fa-linkedin-in text-white p-1 text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-secondary text-center mt-4">
+                    © Copyright <span class="fw-bold" style="color: rgb(163, 162, 162);">Yummy.</span> All Rights Reserved <br>
+                    Designed by <span class="text-white fw-bold">Ramandeep Kaur</span> <i class="fa-solid fa-heart text-danger"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

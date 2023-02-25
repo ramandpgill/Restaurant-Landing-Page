@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+.yummy-nav button{
+    padding: 12px 15px;
+    border-radius: 20px;
+    background-color:rgb(206, 18, 18) ;
+    border: none;
+    color: white;
+   margin: 20px;
+   font-size: 15px;
+}
+.yummy-nav .bar{
+    display: none;
+}
+
+.yummy-nav .menu{
+    list-style-type: none;
+}
+
+.yummy-nav .menu li{
+    display: inline-block;
+}
+.mobile-menu{
+    list-style-type: none;
+    display: none;
+}
+
+
+/* healthy */
+.healthy{
+    margin-top: 100px;
+}
+
+.healthy h4{
+    font-size: 80px;
+    line-height: 70px;
+    font-family: 'Amatic SC', cursive; ; 
+}
+.healthy p{
+    font-size: 23px;
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.healthy button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:rgb(206, 18, 18) ;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Learn More */
+.learn{
+    margin-top: 150px;
+}
+.learn h5{
+ font-size: 15px;
+ text-transform:uppercase ;
+}
+.learn h4{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 50px; 
+}
+.learn h4 span{
+    color: rgb(206, 18, 18);
+}
+
+.about-us-bg{
+    position: relative;
+    background: url(../images/about.jpg);
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 30px;
+    
+}
+
+.about-us-bg .about-us-text{
+    left: 0;
+    right: 0;
+    padding: 30px;
+    margin-top: 250px;
+}
+
+.content ul h4{
+    font-size: 18px;
+}
+
+
+
+/* Cards */
+.choose{
+    background-color: #EEEEEE;
+    margin-top: 150px;
+    width: 100%;
+   
+}
+
+.choose .cards{
+    background-color: #CE1212;
+    padding: 30px 30px;
+    
+}
+.choose .cards h1{
+    font-size: 50px;
+    color: white;
+}
+.choose .cards p{
+    font-size: 20px;
+    color: white;
+}
+.choose .cards button{
+    margin-left:100px ;
+    background-color: #DD5A5A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+    margin-top: 20px;
+}
+
+.choose .card-item{
+    margin-top: 80px;
+    padding: 40px 30px;
+  
+}
+.choose .card-item h6 {
+    font-size: 25px;
+    color: #CE1212;
+    padding-top: 20px;
+   
+    border-color: #FAE7E7 ;
+}
+.choose .card-item h4{
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.choose .card-item p{
+    font-size: 18px;
+    text-align: center;
+    color:#A4A1A0;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+/* testi */
+.stats-counter{
+    background-image: url(../images/stats-bg.jpg);
+    height: 350px;
+    object-fit: cover;
+    margin-top: 150px;
+}
+.stats-counter h1{
+    margin-top: 150px;
+    font-size: 60px;
+}
+.stats-counter h3{
+    font-size: 30px;
+    color: #A4A1A0;
+}
+
+/* Staters */
+
+.state{
+    margin-top: 100px;
+}
+.state h1{
+ font-family: 'Amatic SC', cursive; 
+ font-size: 40px;
+}
+.state h1 span{
+    color: #CE1212;
+}
+.state h4{
+    font-size: 20px;
+}
+
+/* Menu */
+.menus{
+    margin-top: 30px;
+}
+.menus h1{
+    color: #CE1212;
+    margin-top: -10px;
+}
+.menus h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* menu-images */
+.menu-images h5{
+    color: #CE1212;
+}
+
+/* chefs */
+.form{
+    margin-top: 150px;
+}
+.form h2 {
+    font-family: 'Amatic SC', cursive;   
+    font-size: 60px;
+}
+
+.form h2 span{
+    color: #CE1212;
+}
+ /* Form table */
+ .table-photo{
+    margin-top: 20px;
+    background-color: #F7F7F7;
+    padding-left: 0;
+    padding-right: 30px;
+    
+ }
+ .table-photo img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+ }
+
+ 
+
+ .table-photo .form-group{
+    margin-top: 100px;
+}
+
+ .table-photo .form-group input{
+    margin-top: 20px;
+ }
+ .table-photo .form-group textarea{
+    margin-top: 20px;
+   
+ }
+ .table-photo .form-group button{
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color:rgb(206, 18, 18) ;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+    
+ }
+
+
+ /* Contact */
+ .contact{
+    margin-top: 100px;
+ }
+ .contact h2{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 60px;
+ }
+ .contact h2 span{
+    color: #CE1212;
+ }
+ .contact .map{
+    margin-top: 100px;
+    background-color: #F4F4F4;
+    padding: 10px 15px;
+ }
+
+ /* block  of contact*/
+ .block{
+    margin-top: 50px;
+    
+    
+ }
+  .block .map h3 i{
+    font-size: 10px;
+    padding: 20px 20px;
+    background-color: #CE1212;
+    color: white;
+    font-size: 20px;
+   margin-left: 20px;
+
+ }
+ /* Contact final form */
+ .contact-final{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+   
+ }
+ .contact-final .blue button{
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color:rgb(206, 18, 18) ;
+    border: none;
+    color: white;
+    
+  
+ }
+
+ /* footer */
+ .footer-icon p{
+    position: relative;
+    left: 30px;
+ }
+
+
+
+
+ /* media queries */
+
+ 
+
+ @media screen and (max-width: 480px) {
+    .table-photo .form-group button{
+        padding: 15px 20px;
+        border-radius: 50px;
+        background-color:rgb(206, 18, 18) ;
+        border: none;
+        color: white;
+        margin-top: 30px;
+        margin: 0 auto;
+        margin-left: 150px;
+        
+     }
+     .menu{
+        display: none;
+     }
+
+     .yummy-nav .bar{
+        display: block;
+    }
+    
+    .yummy-nav button{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+    
+    
+    
+  
